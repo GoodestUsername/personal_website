@@ -1,20 +1,23 @@
 import React from 'react';
+
+// components
 import { Nav } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+
+// icons
+import { FileEarmarkPersonFill } from 'react-bootstrap-icons';
 
 const SiteNavbar: React.FC = () => {
     return (
         <Navbar bg="dark" variant="dark" sticky="top">
             <Container>
                 <Navbar.Brand href="#home">
-                    <img
-                    alt=""
-                    src="/logo.svg"
-                    width="30"
-                    height="30"
-                    className="d-inline-block align-top"
-                    />{' '}
+                <FileEarmarkPersonFill
+                    width={30}
+                    height={30}
+                    style={{marginRight: 10}}
+                    className="d-inline-block align-top"/>
                     Eric Dong
                 </Navbar.Brand>
                 <Navbar.Collapse className="justify-content-end">
