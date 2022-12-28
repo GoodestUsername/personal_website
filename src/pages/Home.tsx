@@ -1,25 +1,15 @@
-import React from 'react';
-import logo from 'assets/logo.svg';
 import SiteNavbar from 'components/SiteNavbar';
+import { Container } from 'react-bootstrap';
+import AboutMeSection from 'static/AboutMeSection';
 
 function App() {
   return (
     <div className="App">
       <SiteNavbar/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container className="d-flex flex-column justify-content-center"
+        style={{maxWidth: "1000px"}}>
+        <AboutMeSection/>
+      </Container>
     </div>
   );
 }
