@@ -1,0 +1,31 @@
+<svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="26.865"
+      height="26.01"
+      version="1.1"
+      viewBox="0 0 7.108 6.882"
+    >
+      <g fillOpacity="1" stroke="none" transform="translate(-66.75 -118.934)">
+        <path
+          fill="#fc970a"
+          fillRule="nonzero"
+          strokeWidth="0.14"
+          d="M67.205 118.934h6.256c.314-.004.396.074.396.382v5.968c.003.459-.07.537-.446.531h-6.104c-.485.008-.556-.025-.556-.599v-5.85c-.012-.389.042-.432.454-.432zm.526 6.18h5.07c.313-.006.366-.063.378-.356v-4.679c-.007-.376-.063-.437-.379-.443h-4.984c-.316.008-.38.033-.386.341v4.798c-.02.34-.023.338.3.338z"
+        ></path>
+        <path
+          d="M73.035 121.077l-3.551 3.572c-.136.13-.164.126-.31-.02l-1.65-1.69c-.035-.034-.05-.15-.016-.181l.763-.805c.073-.079.168-.07.236-.014l.67.66.098.098c.036.04.103.042.157-.01l.084-.085 2.46-2.482c.178-.2.174-.21.356-.031l.714.703c.166.139.13.143-.01.285z"
+          fill="#d62c1b"
+          strokeLinecap="butt"
+          strokeLinejoin="miter"
+          strokeOpacity="1"
+          strokeWidth="0.192"
+          fontFamily="sans-serif"
+          fontSize="40"
+          fontStyle="normal"
+          fontWeight="normal"
+          letterSpacing="0"
+          opacity="1"
+          wordSpacing="0"
+        ></path>
+      </g>
+    </svg>

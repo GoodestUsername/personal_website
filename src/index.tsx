@@ -1,7 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+
+// components
+import App from './pages/Home';
+
+// styling
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
