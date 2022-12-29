@@ -1,3 +1,4 @@
+import resumeFile from 'assets/documents/Eric_Dong_Resume.pdf';
 import React from 'react';
 
 // components
@@ -13,11 +14,13 @@ const SiteNavbar: React.FC = () => {
         <Navbar bg="dark" variant="dark" sticky="top">
             <Container>
                 <Navbar.Brand href="#home">
-                <FileEarmarkPersonFill
-                    width={30}
-                    height={30}
-                    style={{marginRight: 10}}
-                    className="d-inline-block align-top"/>
+                    <a href={resumeFile} download="eric_dong_resume.pdf">
+                        <FileEarmarkPersonFill
+                            width={30}
+                            height={30}
+                            style={{marginRight: 10}}
+                            className="d-inline-block align-top text-white"/>
+                    </a>
                     Eric Dong
                 </Navbar.Brand>
                 <Navbar.Collapse className="justify-content-end">

@@ -1,5 +1,6 @@
 import React from 'react';
-import me_irl from 'assets/images/me_irl.png';
+
+// components
 import InfoSection from 'components/InfoSection';
 import IconHyperlink from 'components/IconHyperlink';
 

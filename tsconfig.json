@@ -16,7 +16,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "typeRoots": ["./types", "./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types", "src/types.d.ts"]
   },
   "include": ["src", "tests/setupTests.ts", "tests/App.test.tsx"],
   "exclude": ["types"]
