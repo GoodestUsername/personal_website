@@ -2,7 +2,8 @@
 
 Personal website for me!
 
-www.ericdong.surge.sh
+http://www.ericdong.surge.sh/
+![image](https://user-images.githubusercontent.com/59536503/209932432-83f1d69e-bf17-482c-97fb-25845e928518.png)
 
 ## Available Scripts
 
