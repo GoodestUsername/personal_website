@@ -10,7 +10,7 @@ const AboutMeSection: React.FC = () => {
           <p>Hi, I'm Eric Dong.</p>
           <p>I'm a Software Engineer and a stock nerd.</p>
           <p>I graduated from BCIT in December 2021 with distinction.</p>
-          <p>I Won The BCIT Computer Systems Award in Technical Programming <a href="https://www.linkedin.com/posts/bcitcomputing_big-congratulations-to-some-of-our-amazing-activity-6920106584144494592-3vhu"><i className="bi bi-link text-white"></i></a>.</p>
+          <p>I Won The BCIT Computer Systems Award in Technical Programming <a href="https://www.linkedin.com/posts/bcitcomputing_big-congratulations-to-some-of-our-amazing-activity-6920106584144494592-3vhu"><i className="bi bi-link text-white h4"></i></a>.</p>
           <p>I have been described as a very mono person by past coworkers.</p>
           <p>I have issues with keeping a conversation going.</p>
           <p>I like to keep things concise.</p>
