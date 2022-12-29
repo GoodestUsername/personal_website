@@ -8,16 +8,21 @@ import Navbar from 'react-bootstrap/Navbar';
 // icons
 import { FileEarmarkPersonFill } from 'react-bootstrap-icons';
 
+// document assets
+import resumeFile from 'assets/documents/Eric_Dong_Resume.pdf';
+
 const SiteNavbar: React.FC = () => {
     return (
         <Navbar bg="dark" variant="dark" sticky="top">
             <Container>
                 <Navbar.Brand href="#home">
-                <FileEarmarkPersonFill
-                    width={30}
-                    height={30}
-                    style={{marginRight: 10}}
-                    className="d-inline-block align-top"/>
+                    <a href={resumeFile} download="eric_dong_resume">
+                        <FileEarmarkPersonFill
+                            width={30}
+                            height={30}
+                            style={{marginRight: 10}}
+                            className="d-inline-block align-top text-white"/>
+                    </a>
                     Eric Dong
                 </Navbar.Brand>
                 <Navbar.Collapse className="justify-content-end">
