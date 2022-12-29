@@ -24,9 +24,10 @@ const SiteNavbar: React.FC = () => {
                     <Nav
                         className="my-2 my-lg-0"
                         style={{ maxHeight: '100px' }}>
-                        <Nav.Link href="#action1">About</Nav.Link>
-                        <Nav.Link href="#action2">Projects</Nav.Link>
-                        <Nav.Link href="#action2">Contact</Nav.Link>
+                        <Nav.Link href="#aboutMe">About</Nav.Link>
+                        <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#career">Career</Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
