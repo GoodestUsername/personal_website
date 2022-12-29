@@ -19,7 +19,7 @@ const AboutMeSection: React.FC = () => {
           <p>I have issues with keeping a conversation going.</p>
           <p>I like to keep things concise.</p>
           <p>No I don't have a better picture of myself.</p>
-          <p>plz hire me, ty</p>
+          <p>plz hire me, ty <a href="mailto:ericdongcannn@gmail.com"><h5>ericdongcannn@gmail.com</h5></a></p>
         </article>
       </div>
       <div className="flex-fill">
