@@ -1,6 +1,10 @@
 import React from 'react';
-import me_irl from 'assets/images/me_irl.png';
+
+// components
 import InfoSection from 'components/InfoSection';
+
+// images
+import me_irl from 'assets/images/me_irl.png';
 
 const AboutMeSection: React.FC = () => {
   return (

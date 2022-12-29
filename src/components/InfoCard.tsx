@@ -1,4 +1,7 @@
+// state
 import { useState } from 'react';
+
+// components
 import Card from 'react-bootstrap/Card';
 
 interface InfoCardInterface {

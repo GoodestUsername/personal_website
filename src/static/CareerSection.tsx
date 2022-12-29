@@ -1,4 +1,6 @@
 import React from 'react';
+
+//components
 import InfoSection from 'components/InfoSection';
 import InfoCard from 'components/InfoCard';
 

@@ -1,4 +1,7 @@
 import React from 'react';
+
+// components
+import IconHyperlink from 'components/IconHyperlink';
 import InfoSection from 'components/InfoSection';
 import InfoCard from 'components/InfoCard';
 
@@ -6,7 +9,6 @@ import InfoCard from 'components/InfoCard';
 import ServicelinkLogo from 'assets/images/sampleEconWebsiteLogo.png';
 import GroupceriesLogo from 'assets/images/groupceriesLogo.png';
 import TwoOneChessLogo from 'assets/images/twoonechessLogo.png';
-import IconHyperlink from 'components/IconHyperlink';
 
 const ProjectSection: React.FC = () => {
   return (
