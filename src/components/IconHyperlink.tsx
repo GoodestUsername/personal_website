@@ -5,7 +5,7 @@ interface IconHyperlinkInterface {
 
 const IconHyperlink: React.FC<IconHyperlinkInterface> = ({link, icon}) => {
   return (
-    <p className='text-center'><a href={link}><i className={`bi bi-${icon} text-white h2`}></i></a></p>
+    <p className='text-center m-1'><a href={link}><i className={`bi bi-${icon} text-white h1`}></i></a></p>
   );
 }
 
